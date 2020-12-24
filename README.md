@@ -30,9 +30,6 @@
 
 <p align="center"><img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mk-knight23&show_icons=true&theme=tokyonight" /></p>
 
-<p align='center'> <img src="https://gidigi.com/cdn/love.gif"> </p>
-
-
 [twitter]: https://twitter.com/mk_knight_23
 [instagram]: https://instagram.com/kazi_musharraf_01
 [linkedin]: https://linkedin.com/in/mk-knight-1373271b8
