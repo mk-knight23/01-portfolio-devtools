@@ -10,7 +10,7 @@
 - 🥅 2020 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to Watch Movies And Series...
 
-<p align="center"><img width="90%" src="https://github-readme-stats.vercel.app/api?username=mk-knight23&show_icons=true&theme=tokyonight" /></p>
+<p align="center"><img width="60%" src="https://github-readme-stats.vercel.app/api?username=mk-knight23&show_icons=true&theme=tokyonight" /></p>
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=mk-knight23)
 
