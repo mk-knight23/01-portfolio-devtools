@@ -34,6 +34,10 @@
 
 <p align="center"><img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mk-knight23&show_icons=true&theme=tokyonight" /></p>
 
+ <p>
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mk-knight23&theme=tokyonight" alt="mk-knight23" />
+ </p>
+
 [twitter]: https://twitter.com/mk_knight_23
 [instagram]: https://instagram.com/kazi_musharraf_01
 [linkedin]: https://linkedin.com/in/mk-knight-1373271b8
