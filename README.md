@@ -15,7 +15,7 @@
 - 💻 I'm a Student And Developer
 - 🌱 I’m Currently learning New TECH STUFF,s
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2021 Goals: Contribute more to Open Source projects
+- 🥅 2021 Goals: Contribute more to Open Source projects 
 - ⚡ Fun fact: I love to Watch Movies And Series...
 
 <p align="center"><img width="60%" src="https://github-readme-stats.vercel.app/api?username=mk-knight23&show_icons=true&theme=tokyonight" /></p>
