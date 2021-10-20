@@ -1,4 +1,4 @@
-## Hi there, I'm  mk-knight 👋 WElCOME TO MY GIT-WORLD
+## Hi there, I'm  KAZI 👋 WElCOME TO MY GIT-WORLD
 
 <p align='center'>
     <img src="https://gidigi.com/cdn/love.gif">
@@ -13,7 +13,7 @@
 </p>
 
 - 💻 I'm a Student And Developer
-- 🌱 I’m Currently learning New TECH STUFF,s
+- 🌱 I’m Currently learning New TECH STUFF
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2021 Goals: Contribute more to Open Source projects 
 - ⚡ Fun fact: I love to Watch Movies And Series...
