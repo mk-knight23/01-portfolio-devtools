@@ -1,4 +1,4 @@
-### 📕 Hi there, I'm  KAZI 
+### 📕 Hi <img src="Data/wave.gif" width=50 >, I'm  KAZI 
 
 <p align='center'>
     <img src="https://gidigi.com/cdn/love.gif">
