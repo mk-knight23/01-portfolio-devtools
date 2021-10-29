@@ -26,9 +26,6 @@
 
 - [MK-ALL-REPOS](https://github.com/mk-knight23/MK-ALL-REPOS)
 
-
-<br>
-<br>
 <br>
 ### GitHub Trophies
 
