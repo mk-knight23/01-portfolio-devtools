@@ -26,8 +26,8 @@
 
 - [MK-ALL-REPOS](https://github.com/mk-knight23/MK-ALL-REPOS)
 
-<br>
-### GitHub Trophies
+
+### 📕 GitHub Trophies
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=mk-knight23&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
