@@ -26,11 +26,6 @@
 
 - [MK-ALL-REPOS](https://github.com/mk-knight23/MK-ALL-REPOS)
 
-### 📕 Connect With Me :
-
-[<img align="left" alt="mk-knight23 | Twitter" width="60px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="mk-knight23 | LinkedIn" width="60px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="mk-knight23 | Instagram" width="60px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br>
 <br>
