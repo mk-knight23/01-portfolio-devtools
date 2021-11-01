@@ -71,12 +71,12 @@ https://amzon-cl.web.app/
 <br>
 <p align="center">
   <a href="https://github.com/99anjali"><span>
-    <img height="48%" src="https://github-readme-stats.vercel.app/api?username=99anjali&count_private=true&show_icons=true&theme=radical&&include_all_commits=true"/>
-    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=99anjali&theme=radical" />
+    <img height="48%" src="https://github-readme-stats.vercel.app/api?username=mk-knight23&count_private=true&show_icons=true&theme=radical&&include_all_commits=true"/>
+    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=mk-knight23&theme=radical" />
     <!--(<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=99anjali&hide=html,css,javascript,scss&layout=compact&langs_count=8&theme=radical"/>)-->
-    <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=99anjali&theme=dracula" />
+    <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mk-knight23&theme=dracula" />
    <br />
-   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=99anjali&hide=php&theme=dracula" /></span></a>
+   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mk-knight23&hide=php&theme=dracula" /></span></a>
 
 </p>
 
@@ -86,7 +86,7 @@ https://amzon-cl.web.app/
 ### 🏆 GitHub Profile Trophy:
 <p align="center">
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img width=800 src="https://github-profile-trophy.vercel.app/?username=99anjali&column=8&theme=onedark&no-frame=true&no-bg=true"/>
+  <img width=800 src="https://github-profile-trophy.vercel.app/?username=mk-knight23&column=8&theme=onedark&no-frame=true&no-bg=true"/>
 </a>
 </p>
 
@@ -94,7 +94,7 @@ https://amzon-cl.web.app/
 
 ### 📈 GitHub Activity:
 
-  <a href="https://github.com/99anjali/github-readme-activity-graph"><img alt="DenverCoder1's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=99anjali&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a> 
+  <a href="https://github.com/mk-knight23/github-readme-activity-graph"><img alt="DenverCoder1's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=mk-knight23&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a> 
 
 
 <br>
