@@ -11,7 +11,7 @@
 </p>
 
 - 💻 I'm a Student And Developer
-- 🌱 I’m Currently learning New TECH STUFF
+- 🌱 I’m Currently learning New TECH STUFF And AI
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2023 Goals: Contribute more to Open Source projects 
 - ⚡ Fun fact: I love to Watch Movies And Series...
