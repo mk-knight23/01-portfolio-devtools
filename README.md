@@ -1,5 +1,5 @@
 <h1>Hi <img src="./wave.gif" width=50 >, I'm KAZI MUSHARRAF </h1>
-<h2 align="left" id="macropower-tech">Favorite Tech</h2>
+<h2 align="left" id="macropower-tech">My Tech Stack </h2>
 
 <table align="center">
   <tr>
@@ -78,9 +78,7 @@
     </td>
   </tr>
 </table>
-<p align='center'>
-    <img src="https://gidigi.com/cdn/love.gif">
-</p>
+
 <p > 
  <img src="https://badges.pufler.dev/visits/mk-knight23/mk-knight23"/>
  <img src="https://badges.pufler.dev/years/mk-knight23"/>
