@@ -1,4 +1,9 @@
 <h1>Hi <img src="./wave.gif" width=50 >, I'm KAZI MUSHARRAF </h1>
+<p align="center">
+  <a href="https://github.com/kaimatsuda29"><img
+      src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack%20developer;Web%20and%20mobile%20master;AI%20Automation%20Engineer;Always%20learning%20new%20tech&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45%22"></a>
+</p>
+
 <h2 align="left" id="macropower-tech">My Tech Stack </h2>
 
 <table align="center">
