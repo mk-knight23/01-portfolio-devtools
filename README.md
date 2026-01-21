@@ -1,26 +1,30 @@
 # 01-profile-readme
 
-✨ Professional Repository Showcase Template
-
-## Live Deployments
-- Netlify: https://01-profile-readme-mkazi.netlify.app
-- GitHub Pages: https://mk-knight23.github.io/01-profile-readme/
-
-Status: 🟢 Live
-Last Updated: 2026-01-21T13:49:00+05:30
+✨ A modern, accessible developer profile template with glassmorphism design, dark/light mode, and GitHub stats integration.
 
 ## Features
-- 📱 Mobile Responsive
-- ⚡ Fast Performance
-- 🎨 Modern UI/UX
+- 🌟 Premium Glassmorphism UI
+- 📱 Mobile Responsive & Accessible
+- ⚡ Ultra-Fast Load Times (Vite 6)
+- 🎨 Modern Aesthetic with Motion Design
+- 📊 GitHub Stats & Top Languages Integration
+
+## Tech Stack
+- **Frontend**: React 18, Tailwind CSS v4
+- **Build Tool**: Vite 6
+- **Animations**: Framer Motion, GSAP
+- **Icons**: Lucide React
 
 ## Quick Start
 ```bash
-git clone https://github.com/mk-knight23/01-profile-readme.git
-cd 01-profile-readme
 npm install
 npm run dev
 ```
 
-## License
-MIT
+## Documentation
+Additional technical details can be found in the [docs/](docs/) directory.
+
+## Live Deployment
+GitHub Pages: [Pending]
+Status: 🟡 Initializing Pipeline
+Last Updated: 2026-01-21
