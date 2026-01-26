@@ -1,138 +1,132 @@
-<h1>Hi <img src="./wave.gif" width=50 >, I'm KAZI MUSHARRAF </h1>
-<p align="center">
-  <a href="https://github.com/kaimatsuda29"><img
-      src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack%20developer;Web%20and%20mobile%20master;AI%20Automation%20Engineer;Always%20learning%20new%20tech&font=Pacifico&center=true&width=650&height=120&color=58a6ff&vCenter=true&size=45%22"></a>
-</p>
+# MUSHARRAF KAZI
 
-<h2 align="left" id="macropower-tech">My Tech Stack </h2>
+**AI Engineer & Indie Builder — Agents, Devtools, SaaS, Automation**
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vue" width="65" height="65" alt="Vue" />
-      <br>Vue
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
-      </a>
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
-      <br>TypeScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" />
-      <br>AWS
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
-      <br>C#
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" />
-      <br>Django
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="65" height="65" alt="tailwind" />
-      <br>Tailwind
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mui" width="65" height="65" alt="PostgreSQL" />
-      <br>MUI
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=graphql" width="65" height="65" alt="MySQL" />
-      <br>GraphQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="65" height="65" alt="MongoDB" />
-      <br>MongoDB
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="65" height="65" alt="Nodejs" />
-      <br>Nodejs
-    </td>
-    <td align="center" width="96">
-      <img src="https://reactnative.dev/img/header_logo.svg"
-        width="65" height="65" alt="Git" />
-      <br>React_Native
-    </td>
-    <td align="center" width="96">
-      <img src="https://docs.flutter.dev/assets/images/branding/flutter/logo/default.svg"
-        width="65" height="65" alt="Git" />
-      <br>Flutter
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png"
-        width="65" height="65" alt="Git" />
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
-      <br>Github
-    </td>
-  </tr>
-</table>
+---
 
-<p > 
- <img src="https://badges.pufler.dev/visits/mk-knight23/mk-knight23"/>
- <img src="https://badges.pufler.dev/years/mk-knight23"/>
- <img src="https://badges.pufler.dev/repos/mk-knight23"/>
- <img src="https://badges.pufler.dev/commits/monthly/mk-knight23"/>
-</p>
+## About
 
-- 💻 I'm a Developer with 6 Years of experience in Full Stack Development, React JS , AI Agency  Building 
-- 🌱 I’m Currently learning New TECH STUFF And AI
-- 👯 I’m looking to collaborate with other content creators
-- 🥅 2026 Goals: Build AI VIBE Coding Apps
-- ⚡ Fun fact: I love to Watch Movies And Series...
+AI Engineer and Indie Product Builder specializing in Agentic AI, Developer Tools,
+Multi-LLM Routing, and SaaS Automation.
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=mk-knight23)
+Building the **VIBE Ecosystem** — a multi-product AI developer platform (CLI, VS Code
+Extension, Web SaaS, and Agents) focused on AI-powered coding workflows,
+multi-agent orchestration, and production-grade developer tooling.
 
+Experienced in system architecture, product strategy, execution, research, and
+full-stack implementation. Strong interest in AI Agents, Generative AI, Devtools,
+Cloud, LLM infrastructure, and automation-first platforms.
 
-[twitter]: https://twitter.com/mk_knight_23
-[instagram]: https://instagram.com/kazi_musharraf_01
-[linkedin]: https://linkedin.com/in/mk-knight-1373271b8
+---
 
+## VIBE Ecosystem (Flagship Project)
 
-<br>
+**Founder & AI Engineer**
 
-### ♾️  Github Stats:
-<br>
-<p align="center">
-  <a href="https://github.com/mk-knight23"><span>
-    <img height="48%" src="https://github-readme-stats.vercel.app/api?username=mk-knight23&count_private=true&show_icons=true&theme=radical&&include_all_commits=true"/>
-<!--     <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=mk-knight23&theme=radical" /> -->
-    <!--(<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=99anjali&hide=html,css,javascript,scss&layout=compact&langs_count=8&theme=radical"/>)-->
-    <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mk-knight23&theme=dracula" />
-   <br />
-   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mk-knight23&hide=php&theme=dracula" /></span></a>
+A multi-product AI developer platform comprising:
 
-</p>
+| Product | Description |
+|---------|-------------|
+| VIBE CLI | Multi-agent AI coding tool with single-command TUI, multi-LLM router, execution modes (Ask / Code / Debug / Architect / Shell / Agent), security-first approvals, rollback, and production-grade architecture |
+| VIBE VS Code | Multi-agent assistant with CLI parity, state-machine orchestration, real-time streaming chat, unified tool system |
+| VIBE Web | Documentation and onboarding hub for the ecosystem |
+| VIBE Chat | AI web app & website builder powered by generative agents |
 
-<br />  
-<br />
-  
-### 🏆 GitHub Profile Trophy:
-<p align="center">
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img width=800 src="https://github-profile-trophy.vercel.app/?username=mk-knight23&column=8&theme=onedark&no-frame=true&no-bg=true"/>
-</a>
-</p>
+**Technical Highlights:**
+- Hierarchical RAG (H-RAG) + Decision Agents + Orchestrator
+- Multi-provider LLM routing with fallback and evaluation
+- 55-feature roadmap with 4-tier system prompt strategy
+- Competitive analysis across 60 AI coding tools
+- Monorepo strategy with ecosystem boundaries
 
-<br>
+---
 
+## Core Skills
 
-<br>  
+### AI & Agents
+- RAG, H-RAG, Multi-Agent Systems
+- Tooling, Orchestration, Decision Agents
+- LLM Routing, Guardrails, Evaluation
 
+### Developer Platforms
+- CLI Tools, VS Code Extensions
+- Automation, Developer Experience (DX)
 
+### Generative AI
+- Code Generation, Analysis, Refactoring
+- Debugging, Prompt Engineering
+
+### Engineering & Stack
+- Python, Node.js, React, TypeScript
+- APIs, CI/CD, Testing, Cloud
+
+### LLM Ecosystem
+- OpenAI, Claude, Gemini
+- OpenRouter, MegaLLM, Local LLMs (Ollama)
+
+### Product & Research
+- Roadmapping, Architecture
+- Competitive Analysis
+- Documentation, UX/DX
+- AI Tooling & Future-of-Coding Research
+
+---
+
+## Selected Projects
+
+### Portfolio & Web
+| Project | Description |
+|---------|-------------|
+| [05-portfolio-personal-site-nextjs](https://github.com/mk-knight23/05-portfolio-personal-site-nextjs) | Primary public portfolio website |
+| [12-web-react-blog](https://github.com/mk-knight23/12-web-react-blog) | Content publishing platform |
+| [09-web-country-explorer](https://github.com/mk-knight23/09-web-country-explorer) | Country data dashboard |
+
+### Developer Tools
+| Project | Description |
+|---------|-------------|
+| [VIBE CLI](https://github.com/mk-knight23) | Multi-agent AI coding tool |
+| [36-tool-react-password-generator](https://github.com/mk-knight23/36-tool-react-password-generator) | Secure password generation |
+| [40-tool-react-image-uploader](https://github.com/mk-knight23/40-tool-react-image-uploader) | Image management tool |
+
+### Web Applications
+| Project | Description |
+|---------|-------------|
+| [17-web-recipe-finder](https://github.com/mk-knight23/17-web-recipe-finder) | Recipe discovery application |
+| [19-web-meme-generator](https://github.com/mk-knight23/19-web-meme-generator) | Custom meme creation tool |
+
+### Games & Interactive
+| Project | Description |
+|---------|-------------|
+| [26-game-js-mini-games](https://github.com/mk-knight23/26-game-js-mini-games) | Collection of mini-games |
+| [33-game-aptitude-calculator](https://github.com/mk-knight23/33-game-aptitude-calculator) | Math aptitude testing |
+
+---
+
+## Status
+
+Actively building the VIBE Ecosystem and open to opportunities in:
+
+- AI Engineering
+- Applied AI
+- Agent Systems
+- Developer Tools
+- SaaS Platforms
+- Startup / Research roles
+- Cloud AI
+
+**Location:** India
+**Availability:** Remote & Hybrid
+
+---
+
+## Connect
+
+- **Email:** [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
+- **GitHub:** [@mk-knight23](https://github.com/mk-knight23)
+- **LinkedIn:** [kazi-musharraf](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+
+---
+
+*Portfolio ecosystem: 60 projects across Portfolio, Web, Games, Tools, Starters, and Learn categories.*
+
+*Last Updated: January 2025*

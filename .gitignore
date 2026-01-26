@@ -1,0 +1,22 @@
+node_modules/
+.next/
+.vercel/
+dist/
+build/
+coverage/
+*.log
+.env*
+package-lock.json
+.DS_Store
+Thumbs.db
+.Trash
+
+# Local Netlify folder
+.netlify
+.vercel
+.env*.local
+
+# Security - env files
+.env.local
+.env.*.local
+.env.production
