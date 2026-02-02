@@ -1,5 +1,7 @@
 /* CSS Reset & Base */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -178,8 +180,8 @@ main {
     justify-content: center;
     padding-top: 6rem;
     border-bottom: none;
-    background: radial-gradient(ellipse at top right, rgba(0,0,0,0.02) 0%, transparent 50%),
-                radial-gradient(ellipse at bottom left, rgba(0,0,0,0.015) 0%, transparent 50%);
+    background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.02) 0%, transparent 50%),
+        radial-gradient(ellipse at bottom left, rgba(0, 0, 0, 0.015) 0%, transparent 50%);
 }
 
 .hero-content {
@@ -297,8 +299,17 @@ main {
 }
 
 @keyframes scrollPulse {
-    0%, 100% { opacity: 0.2; transform: scaleY(0.7) translateY(0); }
-    50% { opacity: 1; transform: scaleY(1) translateY(-10px); }
+
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: scaleY(0.7) translateY(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scaleY(1) translateY(-10px);
+    }
 }
 
 /* About Section */
@@ -385,6 +396,8 @@ main {
 
 .product-card:hover {
     background: var(--off-white);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
 }
 
 .product-icon {
@@ -508,6 +521,8 @@ main {
 
 .project-card:hover {
     background: var(--off-white);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
 }
 
 .project-header {
@@ -990,6 +1005,7 @@ main {
 
 /* vNext: Print optimization */
 @media print {
+
     .nav,
     .footer,
     .scroll-indicator,

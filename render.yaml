@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: 01-portfolio-devtools
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
