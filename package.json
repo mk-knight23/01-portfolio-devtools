@@ -8,10 +8,12 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy:gh": "gh-pages -d dist",
-    "deploy": "npm run build && npm run deploy:gh"
+    "deploy": "npm run build && npm run deploy:gh",
+    "test:e2e": "playwright test"
   },
   "homepage": "https://mk-knight23.github.io/01-portfolio-devtools",
   "devDependencies": {
+    "@playwright/test": "^1.58.1",
     "gh-pages": "^6.3.0",
     "vite": "^6.0.0"
   }

@@ -1,5 +1,11 @@
 # Kazi Musharraf — DevTools Engineer
 
+## 🚀 Live Demo
+
+This portfolio is deployed to multiple platforms:
+
+
+
 **Building Developer-First Platforms, CLI Tools & AI Developer Tooling**
 
 ---
