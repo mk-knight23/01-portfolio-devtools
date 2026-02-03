@@ -12,7 +12,7 @@ Multi-LLM Routing, and SaaS Automation.
 Building the **VIBE Ecosystem** — a multi-product AI developer platform (CLI, VS Code
 Extension, Web SaaS, and Agents) focused on AI-powered coding workflows,
 multi-agent orchestration, and production-grade developer tooling.
-new commit
+new commit 2
 Experienced in system architecture, product strategy, execution, research, and
 full-stack implementation. Strong interest in AI Agents, Generative AI, Devtools,
 Cloud, LLM infrastructure, and automation-first platforms.
