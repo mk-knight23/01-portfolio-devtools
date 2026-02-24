@@ -625,10 +625,365 @@ main {
     font-size: 0.85rem;
 }
 
+/* Portfolio Navigation */
+.portfolio-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 101;
+    padding: 0.5rem 0;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+}
+
+.portfolio-nav-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portfolio-nav-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+.portfolio-nav-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.portfolio-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-secondary);
+    background: rgba(148, 163, 184, 0.1);
+    border: 1px solid var(--border);
+    transition: all var(--transition);
+}
+
+.portfolio-link:hover {
+    background: rgba(129, 140, 248, 0.2);
+    border-color: var(--accent);
+    color: var(--accent-light);
+    transform: translateY(-2px);
+}
+
+.portfolio-link.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+/* Adjust main nav to account for portfolio nav */
+.nav {
+    top: 3rem;
+}
+
+/* Ecosystems Section */
+.ecosystems {
+    padding-top: 4rem;
+}
+
+.ecosystem-card {
+    padding: 2rem;
+    background: rgba(148, 163, 184, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    margin-bottom: 2rem;
+    transition: all var(--transition);
+}
+
+.ecosystem-card:hover {
+    border-color: rgba(129, 140, 248, 0.3);
+}
+
+.ecosystem-header {
+    margin-bottom: 1.5rem;
+}
+
+.ecosystem-title-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.75rem;
+}
+
+.ecosystem-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.ecosystem-badge {
+    padding: 0.4rem 1rem;
+    background: var(--accent-glow);
+    color: var(--accent-light);
+    border-radius: 100px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.ecosystem-description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* 60 Projects Categories */
+.ecosystem-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.category-card {
+    padding: 1.25rem;
+    background: rgba(148, 163, 184, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    transition: all var(--transition);
+}
+
+.category-card:hover {
+    background: rgba(148, 163, 184, 0.08);
+    border-color: rgba(129, 140, 248, 0.3);
+    transform: translateY(-2px);
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.category-icon {
+    font-size: 1.25rem;
+}
+
+.category-header h4 {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.category-count {
+    padding: 0.25rem 0.5rem;
+    background: var(--accent-glow);
+    color: var(--accent-light);
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.category-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.category-tech span {
+    padding: 0.25rem 0.6rem;
+    background: rgba(148, 163, 184, 0.1);
+    color: var(--text-secondary);
+    border-radius: 100px;
+    font-size: 0.75rem;
+}
+
+/* AI-VIBE Projects */
+.ecosystem-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: rgba(148, 163, 184, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all var(--transition);
+}
+
+.project-item:hover {
+    background: rgba(148, 163, 184, 0.08);
+    border-color: rgba(129, 140, 248, 0.3);
+}
+
+.project-item .project-name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+}
+
+.project-item .project-tag {
+    padding: 0.2rem 0.5rem;
+    background: var(--accent-glow);
+    color: var(--accent-light);
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.project-item .project-desc {
+    margin-left: auto;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* AI-SDK Cards */
+.ecosystem-sdks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.sdk-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+    background: rgba(148, 163, 184, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all var(--transition);
+}
+
+.sdk-card:hover {
+    background: rgba(148, 163, 184, 0.08);
+    border-color: rgba(129, 140, 248, 0.3);
+    transform: translateY(-2px);
+}
+
+.sdk-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.sdk-stack {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* Ecosystem Links */
+.ecosystem-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ecosystem-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all var(--transition);
+}
+
+.ecosystem-link.primary {
+    background: var(--accent);
+    color: white;
+}
+
+.ecosystem-link.primary:hover {
+    background: var(--accent-light);
+    transform: translateY(-2px);
+}
+
+.ecosystem-link.secondary {
+    background: rgba(148, 163, 184, 0.1);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+}
+
+.ecosystem-link.secondary:hover {
+    background: rgba(148, 163, 184, 0.15);
+    border-color: var(--accent);
+    color: var(--accent-light);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
+    .portfolio-nav {
+        padding: 0.4rem 0;
+    }
+
+    .portfolio-nav-content {
+        padding: 0 1rem;
+    }
+
+    .portfolio-nav-label {
+        display: none;
+    }
+
+    .portfolio-link {
+        width: 1.75rem;
+        height: 1.75rem;
+        font-size: 0.7rem;
+    }
+
+    .nav {
+        top: 2.6rem;
+        padding: 1rem 0;
+    }
+
     .nav-links {
         display: none;
+    }
+
+    .ecosystem-title-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .ecosystem-projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project-item {
+        flex-wrap: wrap;
+    }
+
+    .project-item .project-desc {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .ecosystem-sdks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ecosystem-categories {
+        grid-template-columns: 1fr;
     }
 
     main {

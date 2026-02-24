@@ -1,132 +1,251 @@
-# MUSHARRAF KAZI
+# 01 Portfolio DevTools — Kazi Musharraf
 
-**AI Engineer & Indie Builder — Agents, Devtools, SaaS, Automation**
+> **Terminal-inspired portfolio for the modern developer.**
+> Showcasing 60+ projects, AI-VIBE ecosystem, and AI-SDK implementations through a CLI aesthetic.
 
----
-
-## About
-
-AI Engineer and Indie Product Builder specializing in Agentic AI, Developer Tools,
-Multi-LLM Routing, and SaaS Automation.
-
-Building the **VIBE Ecosystem** — a multi-product AI developer platform (CLI, VS Code
-Extension, Web SaaS, and Agents) focused on AI-powered coding workflows,
-multi-agent orchestration, and production-grade developer tooling.
-new commit 2 , 3
-Experienced in system architecture, product strategy, execution, research, and
-full-stack implementation. Strong interest in AI Agents, Generative AI, Devtools,
-Cloud, LLM infrastructure, and automation-first platforms.
+[![Live Site](https://img.shields.io/badge/Live%20Site-DevTools-4f46e5?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio-devtools.web.app)
+[![GitHub](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/01-portfolio-devtools)
+[![Ecosystem](https://img.shields.io/badge/60%20Projects-Ecosystem-10b981?style=for-the-badge)](https://www.mkazi.live)
 
 ---
 
-## VIBE Ecosystem (Flagship Project)
+## What Is This?
 
-**Founder & AI Engineer**
+This is **Portfolio #01 — DevTools**, a terminal-inspired portfolio website designed for developers who appreciate clean, CLI aesthetics. Built with pure HTML/CSS/JS, it showcases my work through a dark-themed, neon-accented interface that feels familiar to anyone who spends time in the terminal.
 
-A multi-product AI developer platform comprising:
-
-| Product | Description |
-|---------|-------------|
-| VIBE CLI | Multi-agent AI coding tool with single-command TUI, multi-LLM router, execution modes (Ask / Code / Debug / Architect / Shell / Agent), security-first approvals, rollback, and production-grade architecture |
-| VIBE VS Code | Multi-agent assistant with CLI parity, state-machine orchestration, real-time streaming chat, unified tool system |
-| VIBE Web | Documentation and onboarding hub for the ecosystem |
-| VIBE Chat | AI web app & website builder powered by generative agents |
-
-**Technical Highlights:**
-- Hierarchical RAG (H-RAG) + Decision Agents + Orchestrator
-- Multi-provider LLM routing with fallback and evaluation
-- 55-feature roadmap with 4-tier system prompt strategy
-- Competitive analysis across 60 AI coding tools
-- Monorepo strategy with ecosystem boundaries
+This portfolio is one of **eight specialized portfolio experiences**, each telling the same story through a different design lens.
 
 ---
 
-## Core Skills
+## The Story: 60 Projects Ecosystem
 
-### AI & Agents
-- RAG, H-RAG, Multi-Agent Systems
-- Tooling, Orchestration, Decision Agents
-- LLM Routing, Guardrails, Evaluation
+### How It Started
 
-### Developer Platforms
-- CLI Tools, VS Code Extensions
-- Automation, Developer Experience (DX)
+What began as a single project repository evolved into a comprehensive ecosystem spanning **60 production projects** across 4 categories:
 
-### Generative AI
-- Code Generation, Analysis, Refactoring
-- Debugging, Prompt Engineering
+| Category | Count | Description |
+|----------|-------|-------------|
+| **Web Apps** | 16 | Full-stack applications (React, Vue, Angular) |
+| **Games** | 10 | Browser-based interactive experiences |
+| **Tools** | 10 | Developer utilities and productivity apps |
+| **Starters** | 16 | Boilerplates and template projects |
+| **Portfolios** | 8 | These portfolio experiences (meta!) |
 
-### Engineering & Stack
-- Python, Node.js, React, TypeScript
-- APIs, CI/CD, Testing, Cloud
+### The Evolution
 
-### LLM Ecosystem
-- OpenAI, Claude, Gemini
-- OpenRouter, MegaLLM, Local LLMs (Ollama)
+The ecosystem grew organically through iterative development:
 
-### Product & Research
-- Roadmapping, Architecture
-- Competitive Analysis
-- Documentation, UX/DX
-- AI Tooling & Future-of-Coding Research
+1. **Phase 1** — Individual projects solving specific problems
+2. **Phase 2** — Pattern recognition and reusable components
+3. **Phase 3** — Ecosystem thinking: how projects connect
+4. **Phase 4** — Multi-portfolio showcase (you're here!)
 
----
+### Current State
 
-## Selected Projects
-
-### Portfolio & Web
-| Project | Description |
-|---------|-------------|
-| [05-portfolio-personal-site-nextjs](https://github.com/mk-knight23/05-portfolio-personal-site-nextjs) | Primary public portfolio website |
-| [12-web-react-blog](https://github.com/mk-knight23/12-web-react-blog) | Content publishing platform |
-| [09-web-country-explorer](https://github.com/mk-knight23/09-web-country-explorer) | Country data dashboard |
-
-### Developer Tools
-| Project | Description |
-|---------|-------------|
-| [VIBE CLI](https://github.com/mk-knight23) | Multi-agent AI coding tool |
-| [36-tool-react-password-generator](https://github.com/mk-knight23/36-tool-react-password-generator) | Secure password generation |
-| [40-tool-react-image-uploader](https://github.com/mk-knight23/40-tool-react-image-uploader) | Image management tool |
-
-### Web Applications
-| Project | Description |
-|---------|-------------|
-| [17-web-recipe-finder](https://github.com/mk-knight23/17-web-recipe-finder) | Recipe discovery application |
-| [19-web-meme-generator](https://github.com/mk-knight23/19-web-meme-generator) | Custom meme creation tool |
-
-### Games & Interactive
-| Project | Description |
-|---------|-------------|
-| [26-game-js-mini-games](https://github.com/mk-knight23/26-game-js-mini-games) | Collection of mini-games |
-| [33-game-aptitude-calculator](https://github.com/mk-knight23/33-game-aptitude-calculator) | Math aptitude testing |
+```
+Total Projects:     60+
+Live Deployments:   100%
+Tech Stacks:        25+
+GitHub Stars:       Growing
+Ecosystem Health:   🟢 Active
+```
 
 ---
 
-## Status
+## AI-VIBE Ecosystem
 
-Actively building the VIBE Ecosystem and open to opportunities in:
+### What Is VIBE?
 
-- AI Engineering
-- Applied AI
-- Agent Systems
-- Developer Tools
-- SaaS Platforms
-- Startup / Research roles
-- Cloud AI
+**VIBE** (Versatile Intelligence-Based Environment) is a multi-product AI developer platform I'm building — spanning CLI tools, VS Code extensions, web applications, and agent systems.
 
-**Location:** India
-**Availability:** Remote & Hybrid
+| Product | Status | Description |
+|---------|--------|-------------|
+| **VIBE CLI** | In Dev | Multi-agent AI coding tool with TUI |
+| **VIBE VS Code** | Planned | IDE extension with agent orchestration |
+| **VIBE Web** | Live | Documentation and onboarding hub |
+| **VIBE Chat** | Planned | AI web app & website builder |
+| **VIBE Router** | In Dev | Multi-LLM routing engine |
+| **VIBE Agents** | In Dev | Agent orchestration framework |
+| **VIBE Memory** | Planned | Context management system |
+| **VIBE Studio** | Planned | Visual agent builder |
+| **VIBE Deploy** | Planned | One-click deployment |
+| **VIBE Sync** | Planned | Cross-platform sync |
+
+### Technical Highlights
+
+- **H-RAG**: Hierarchical Retrieval-Augmented Generation
+- **Multi-LLM Routing**: Intelligent provider selection with fallback
+- **Agent Orchestration**: Multi-agent collaboration systems
+- **Security-First**: Approval workflows and audit trails
 
 ---
 
-## Connect
+## AI-SDK Ecosystem
 
-- **Email:** [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
-- **GitHub:** [@mk-knight23](https://github.com/mk-knight23)
-- **LinkedIn:** [kazi-musharraf](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+I've implemented **10 major AI/ML SDKs** across different technology stacks:
+
+| SDK | Provider | Stack |
+|-----|----------|-------|
+| OpenAI SDK | OpenAI | Python/Node |
+| Claude SDK | Anthropic | TypeScript |
+| Gemini SDK | Google | Python |
+| OpenRouter SDK | OpenRouter | TypeScript |
+| Ollama SDK | Ollama | Python |
+| Vercel AI SDK | Vercel | React/Next.js |
+| LangChain | LangChain | Python/TS |
+| LlamaIndex | LlamaIndex | Python |
+| Hugging Face | HuggingFace | Python |
+| Cohere SDK | Cohere | Python |
+
+Each implementation demonstrates production-ready patterns for integrating LLMs into applications.
 
 ---
 
-*Portfolio ecosystem: 60 projects across Portfolio, Web, Games, Tools, Starters, and Learn categories.*
+## 8 Portfolio Ecosystem
 
-*Last Updated: January 2025*
+This portfolio is **#01 of 8** specialized experiences:
+
+| # | Portfolio | Theme | URL |
+|---|-----------|-------|-----|
+| 01 | **DevTools** | Terminal/CLI | [Live](https://portfolio-devtools.web.app) |
+| 02 | Fullstack | Clean SaaS | [Live](https://mk-knight-fullstack.web.app) |
+| 03 | Frontend | Motion Design | [Live](https://mk-knight-frontend.web.app) |
+| 04 | Backend | Editorial | [Live](https://mk-knight-backend.web.app) |
+| 05 | Frontend AI | AI Lab | [Live](https://mk-knight-frontend-ai.web.app) |
+| 06 | Senior Frontend | Swiss Minimal | [Live](https://mk-knight-senior-frontend.web.app) |
+| 07 | Indie SaaS | Startup Style | [Live](https://portfolio-indie-saas.web.app) |
+| 08 | AI Automation | Systems Flow | [Live](https://portfolio-ai-automation.web.app) |
+
+Each portfolio showcases the same underlying work through a unique design perspective.
+
+---
+
+## Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| **Structure** | HTML5 (semantic, accessible) |
+| **Styling** | CSS3 (Grid, Flexbox, Custom Properties) |
+| **Interactivity** | Vanilla JavaScript (ES6+) |
+| **Build Tool** | None — pure static site |
+| **Deployment** | Firebase Hosting |
+| **Performance** | System fonts, minimal dependencies |
+
+---
+
+## Design Philosophy
+
+### Why Terminal Aesthetic?
+
+1. **Developer-Familiar**: Uses patterns developers know and love
+2. **Information-Dense**: CLI interfaces maximize content per pixel
+3. **Performance**: No framework overhead, blazing fast load times
+4. **Accessibility**: High contrast, clear typography, keyboard navigation
+
+### Key Design Decisions
+
+- **Dark Theme**: Reduces eye strain for developers
+- **Neon Accents**: Indigo/purple highlights key actions
+- **Monospace Fonts**: Code-like presentation of information
+- **Grid Layout**: Terminal window-inspired sections
+
+---
+
+## Featured Projects
+
+### Recent Work
+
+| Project | Category | Tech | Live |
+|---------|----------|------|------|
+| Country Explorer | Web | React | [View](https://mk-knight23.github.io/09-web-country-explorer/) |
+| Recipe Finder | Web | Vue | [View](https://mk-knight23.github.io/17-web-recipe-finder/) |
+| Meme Generator | Web | React | [View](https://mk-knight23.github.io/19-web-meme-generator/) |
+| Mini Games | Game | React | [View](https://mk-knight23.github.io/26-game-js-mini-games/) |
+
+### View All 60 Projects
+
+🔗 **[https://www.mkazi.live](https://www.mkazi.live)**
+
+---
+
+## Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/mk-knight23/01-portfolio-devtools.git
+
+# Navigate to project
+cd 01-portfolio-devtools
+
+# Open in browser (no build step required!)
+open index.html
+
+# Or serve with any static server
+python3 -m http.server 8000
+npx serve .
+```
+
+---
+
+## Deployment
+
+Deployed to **Firebase Hosting** for global CDN distribution:
+
+```bash
+# Deploy to Firebase
+firebase deploy
+
+# URL: https://portfolio-devtools.web.app
+```
+
+---
+
+## Skills & Expertise
+
+### Core Competencies
+
+- **AI & Agents**: RAG, Multi-Agent Systems, LLM Routing, Orchestration
+- **Developer Platforms**: CLI Tools, VS Code Extensions, DX
+- **Frontend**: React, Vue, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Python, APIs, Databases
+- **AI Integration**: OpenAI, Claude, Gemini, LangChain
+
+---
+
+## About Me
+
+**Kazi Musharraf** — AI Engineer & Indie Builder
+
+- **Current**: Project Engineer (TURBO) at Wipro
+- **Focus**: Agentic AI, Developer Tools, SaaS Automation
+- **Location**: Hyderabad, India
+- **Availability**: Remote & Hybrid
+
+### Connect
+
+- 📧 **Email**: [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
+- 💻 **GitHub**: [@mk-knight23](https://github.com/mk-knight23)
+- 💼 **LinkedIn**: [kazi-musharraf](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+- 🌐 **Portfolio Hub**: [https://www.mkazi.live](https://www.mkazi.live)
+
+---
+
+## Related Ecosystems
+
+| Ecosystem | Description | Link |
+|-----------|-------------|------|
+| **60 Projects** | Production projects showcase | [mkazi.live](https://www.mkazi.live) |
+| **AI-VIBE** | AI developer platform | [GitHub](https://mk-knight23.github.io/AI-VIBE-ECOSYSTEM) |
+| **AI-SDK** | SDK implementations | [GitHub](https://mk-knight23.github.io/AI-SDK-ECOSYSTEM) |
+
+---
+
+## License
+
+MIT © Kazi Musharraf
+
+---
+
+*Part of the 60 Projects Ecosystem — Built with 💻 and ☕*
+
+*Last Updated: February 2026*
