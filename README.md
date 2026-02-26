@@ -1,3 +1,5 @@
+# 01-portfolio-devtools
+
 # 01 Portfolio DevTools — Kazi Musharraf
 
 > **Terminal-inspired portfolio for the modern developer.**
@@ -249,3 +251,54 @@ MIT © Kazi Musharraf
 *Part of the 60 Projects Ecosystem — Built with 💻 and ☕*
 
 *Last Updated: February 2026*
+
+
+## ✨ Features
+
+This repository has been upgraded with the following features:
+
+1. **Add input validation** ✅
+2. **Add accessibility improvements** ✅
+3. **Add documentation** ✅
+4. **Create examples** ✅
+5. **Add CI/CD pipeline** ✅
+6. **Implement monitoring** ✅
+7. **Add security headers** ✅
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📦 Tech Stack
+
+- Modern web framework
+- Optimized for performance
+- Responsive design
+- Accessibility ready
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/mk-knight23/01-portfolio-devtools.git
+cd 01-portfolio-devtools
+npm install
+```
+
+## 📝 License
+
+MIT
+
+---
+
+*Last updated: 2026-02-26*
