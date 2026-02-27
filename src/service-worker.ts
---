@@ -1,0 +1,69 @@
+```typescript
+// Importing the required types from the Workbox library for better type safety
+import { precaching, routing } from 'workbox-precaching';
+import { registerRoute } from 'workbox-routing';
+import { CacheFirst } from 'workbox-strategies';
+
+// Specify the cache name
+const CACHE_NAME = 'portfolio-cache-v1';
+
+// Self-initiated event for the service worker
+self.addEventListener('install', (event: ExtendableEvent) => {
+  // Skip waiting so that the service worker activates immediately
+  self.skipWaiting();
+});
+
+// Activate the service worker and clean up old caches
+self.addEventListener('activate', (event: ExtendableEvent) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          // Delete any old caches that do not match the current cache name
+          if (cacheName !== CACHE_NAME) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
+
+// Precache the application shell
+precaching.precacheAndRoute(self.__WB_MANIFEST);
+
+// Cache essential resources for offline functionality
+registerRoute(
+  ({ request }) => request.destination === 'document' || request.destination === 'script' || request.destination === 'style',
+  new CacheFirst({
+    cacheName: CACHE_NAME,
+    plugins: [
+      {
+        // Cache responses for a maximum of 30 days
+        expiration: {
+          maxAgeSeconds: 30 * 24 * 60 * 60,
+        },
+      },
+    ],
+  })
+);
+
+// Intercept fetch requests to serve cached assets when offline
+self.addEventListener('fetch', (event: FetchEvent) => {
+  event.respondWith(
+    caches.match(event.request)
+      .then((response) => {
+        // If a cache is hit, return the cached response
+        if (response) {
+          return response;
+        }
+        // If no cache is hit, fetch from the network
+        return fetch(event.request).catch(() => {
+          // Handle offline case: return a fallback response if needed
+          console.error('Fetch failed; returning offline page instead.');
+          return caches.match('/offline.html'); // Ensure you have an offline.html file in your cache
+        });
+      })
+  );
+});
+```

@@ -1,0 +1,39 @@
+```typescript
+// themeSwitch.ts
+
+// Function to apply the theme based on user preference
+function applyTheme(theme: 'light' | 'dark') {
+    // Set CSS variables for light and dark themes
+    const root = document.documentElement;
+
+    if (theme === 'dark') {
+        root.style.setProperty('--background-color', '#121212');
+        root.style.setProperty('--text-color', '#ffffff');
+    } else {
+        root.style.setProperty('--background-color', '#ffffff');
+        root.style.setProperty('--text-color', '#000000');
+    }
+
+    // Store the selected theme in local storage
+    localStorage.setItem('theme', theme);
+}
+
+// Function to toggle the theme
+export function toggleTheme() {
+    // Retrieve the current theme from local storage or default to light
+    const currentTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    
+    // Determine the new theme
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    
+    // Apply the new theme
+    applyTheme(newTheme);
+}
+
+// Function to initialize the theme on page load
+export function initializeTheme() {
+    // Check for saved theme in local storage
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'light';
+    applyTheme(savedTheme);
+}
+```

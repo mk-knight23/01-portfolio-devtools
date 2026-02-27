@@ -1,0 +1,26 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure you have a styles.css -->
+</head>
+<body>
+    <h1>You are currently offline</h1>
+    <p>Please check your internet connection and try again.</p>
+</body>
+</html>
+```
+---
+
+### Explanation of Code:
+1. **Service Worker**: The service worker is implemented in `service-worker.ts` and utilizes Workbox to simplify caching strategies. It listens for the install and activate events to manage caches.
+2. **Precache**: The `precaching.precacheAndRoute` function makes it easy to cache assets defined in the `__WB_MANIFEST` during the service worker's installation.
+3. **Cache Strategy**: The `CacheFirst` strategy is employed for requests that are documents, scripts, or styles, ensuring quick responses from the cache when available.
+4. **Fallback for Offline**: The service worker handles fetch events and provides a fallback offline page if the network is unavailable.
+5. **Service Worker Registration**: The service worker is registered in `index.ts`, with proper error handling to provide feedback in case of failure.
+6. **Offline Page**: An `offline.html` page is provided as a user-friendly message when the app is offline. 
+
+Make sure to include Workbox in your project dependencies to use the above code effectively.

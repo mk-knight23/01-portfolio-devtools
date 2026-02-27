@@ -1,0 +1,19 @@
+```typescript
+import React from 'react';
+import KeyboardNavigation from './components/KeyboardNavigation';
+
+const App: React.FC = () => {
+  return (
+    <div>
+      <h1>Accessible Navigation Example</h1>
+      <KeyboardNavigation focusableElements="button, [tabindex], a[href]" />
+      <button tabIndex={0}>Button 1</button>
+      <button tabIndex={0}>Button 2</button>
+      <a href="#" tabIndex={0}>Link 1</a>
+      <a href="#" tabIndex={0}>Link 2</a>
+    </div>
+  );
+};
+
+export default App;
+```

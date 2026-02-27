@@ -1,0 +1,66 @@
+```typescript
+import React, { useEffect } from 'react';
+
+// Define a type for the keyboard navigation props
+interface KeyboardNavigationProps {
+  focusableElements: string; // CSS selector for focusable elements
+}
+
+const KeyboardNavigation: React.FC<KeyboardNavigationProps> = ({ focusableElements }) => {
+  
+  // Handle the keydown event to manage keyboard navigation
+  const handleKeyDown = (event: KeyboardEvent) => {
+    const focusable = document.querySelectorAll<HTMLElement>(focusableElements);
+    const focusedElement = document.activeElement;
+
+    if (!focusable.length) return; // Exit if there are no focusable elements
+
+    const currentIndex = Array.from(focusable).indexOf(focusedElement);
+
+    switch (event.key) {
+      case 'ArrowDown':
+        // Move focus down
+        event.preventDefault();
+        const nextIndex = (currentIndex + 1) % focusable.length;
+        focusable[nextIndex].focus();
+        break;
+
+      case 'ArrowUp':
+        // Move focus up
+        event.preventDefault();
+        const prevIndex = (currentIndex - 1 + focusable.length) % focusable.length;
+        focusable[prevIndex].focus();
+        break;
+
+      case 'Home':
+        // Move focus to the first element
+        event.preventDefault();
+        focusable[0].focus();
+        break;
+
+      case 'End':
+        // Move focus to the last element
+        event.preventDefault();
+        focusable[focusable.length - 1].focus();
+        break;
+
+      default:
+        break;
+    }
+  };
+
+  // Set up the event listener for keydown events
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [focusableElements]);
+
+  return null; // This component does not render anything visible
+};
+
+export default KeyboardNavigation;
+```

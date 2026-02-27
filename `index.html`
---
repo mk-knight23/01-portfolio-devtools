@@ -1,0 +1,27 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Theme Switching</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <h1>Dynamic Theme Switcher</h1>
+    <button id="theme-toggle">Toggle Theme</button>
+    
+    <script src="dist/index.js" type="module"></script> <!-- Adjust path as needed -->
+</body>
+</html>
+```
+---
+
+### Explanation
+1. **Modularity**: The code is structured into separate files, allowing for easy modification and maintenance.
+2. **CSS Variables**: Used for styling, making the theme switching efficient without duplicating styles.
+3. **Local Storage**: The theme preference is stored in local storage, ensuring that it persists across page reloads.
+4. **Error Handling**: Checks for the existence of the theme toggle button and reports an error if it’s not found.
+5. **TypeScript**: Type annotations are used to ensure type safety and improve developer experience.
+
+This implementation covers all requirements and provides a clean, reusable, and modular codebase.

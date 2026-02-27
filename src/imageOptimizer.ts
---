@@ -1,0 +1,47 @@
+```typescript
+import sharp from 'sharp';
+import fs from 'fs';
+import path from 'path';
+
+// Define an interface for the options to optimize images.
+interface OptimizeOptions {
+    outputFormat?: 'jpeg' | 'png' | 'webp';
+    quality?: number; // 0 to 100
+    width?: number;
+    height?: number;
+}
+
+/**
+ * Optimizes images using the Sharp library.
+ * @param inputPath - The path to the input image.
+ * @param outputPath - The path where to save the optimized image.
+ * @param options - Options for optimization.
+ */
+export const optimizeImage = async (inputPath: string, outputPath: string, options: OptimizeOptions = {}) => {
+    const { outputFormat = 'jpeg', quality = 80, width, height } = options;
+
+    try {
+        // Check if input file exists
+        if (!fs.existsSync(inputPath)) {
+            throw new Error(`Input file does not exist: ${inputPath}`);
+        }
+
+        // Create the output directory if it doesn't exist
+        const outputDir = path.dirname(outputPath);
+        if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+        }
+
+        // Use Sharp to optimize the image
+        await sharp(inputPath)
+            .resize(width, height) // Resize if width or height is provided
+            .toFormat(outputFormat, { quality }) // Convert to specified format
+            .toFile(outputPath); // Save the optimized image
+
+        console.log(`Successfully optimized image: ${outputPath}`);
+    } catch (error) {
+        console.error(`Error optimizing image: ${error.message}`);
+        throw error; // Rethrow the error for upstream handling
+    }
+};
+```

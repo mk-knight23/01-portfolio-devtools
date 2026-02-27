@@ -1,0 +1,32 @@
+```json
+{
+  "name": "customizable-form-builder",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
+```
+---
+
+### Explanation:
+
+1. **Modular Design**: The code is divided into separate components (`FormBuilder` and `FormField`). This makes the codebase easier to manage and extend.
+2. **State Management**: The form fields are managed using React's `useState` hook, ensuring the UI updates reactively based on user actions.
+3. **Export Functionality**: A `Blob` is used to create a downloadable JSON file when exporting the form configuration, with error handling for robustness.
+4. **TypeScript**: Types are defined for props and state, which helps with type safety and reduces runtime errors.
+5. **Edge Case Handling**: The export function includes a try-catch block to handle potential errors gracefully.

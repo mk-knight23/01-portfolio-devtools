@@ -1,0 +1,31 @@
+```typescript
+import React from 'react';
+
+// Define possible field types
+export type FieldType = 'text' | 'number' | 'email'; // Extendable for more types
+
+// Define the props for the FormField component
+interface FormFieldProps {
+  field: {
+    id: string;
+    label: string;
+    type: FieldType;
+    required: boolean;
+  };
+}
+
+// FormField component to render individual fields
+export const FormField: React.FC<FormFieldProps> = ({ field }) => {
+  return (
+    <div>
+      <label htmlFor={field.id}>{field.label}</label>
+      <input
+        id={field.id}
+        type={field.type}
+        required={field.required}
+        placeholder={`Enter ${field.label}`}
+      />
+    </div>
+  );
+};
+```

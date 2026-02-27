@@ -1,0 +1,19 @@
+```typescript
+// index.ts
+
+import { toggleTheme, initializeTheme } from './themeSwitch';
+
+// Initialize the theme on page load
+initializeTheme();
+
+// Event listener for theme toggle button
+const themeToggleButton = document.getElementById('theme-toggle') as HTMLButtonElement;
+
+if (themeToggleButton) {
+    themeToggleButton.addEventListener('click', () => {
+        toggleTheme(); // Toggle the theme when button is clicked
+    });
+} else {
+    console.error('Theme toggle button not found'); // Error handling if button is missing
+}
+```

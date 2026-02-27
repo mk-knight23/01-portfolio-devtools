@@ -1,0 +1,63 @@
+```typescript
+import React, { useState } from 'react';
+import { FormField, FieldType } from './FormField'; // Importing FormField component
+import { v4 as uuidv4 } from 'uuid'; // For generating unique IDs
+
+// Define the structure of a form field
+interface FormFieldConfig {
+  id: string;
+  label: string;
+  type: FieldType;
+  required: boolean;
+}
+
+const FormBuilder: React.FC = () => {
+  const [fields, setFields] = useState<FormFieldConfig[]>([]);
+
+  // Function to add a new field
+  const addField = (type: FieldType) => {
+    const newField: FormFieldConfig = {
+      id: uuidv4(),
+      label: 'New Field',
+      type,
+      required: false,
+    };
+    setFields((prevFields) => [...prevFields, newField]);
+  };
+
+  // Function to export the form configuration as JSON
+  const exportConfig = () => {
+    try {
+      const jsonConfig = JSON.stringify(fields, null, 2);
+      const blob = new Blob([jsonConfig], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'form-config.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Error exporting configuration:', error);
+    }
+  };
+
+  return (
+    <div>
+      <h1>Customizable Form Builder</h1>
+      <div>
+        <button onClick={() => addField('text')}>Add Text Field</button>
+        <button onClick={() => addField('number')}>Add Number Field</button>
+        {/* Add more field types as needed */}
+      </div>
+      <form>
+        {fields.map((field) => (
+          <FormField key={field.id} field={field} />
+        ))}
+      </form>
+      <button onClick={exportConfig}>Export Configuration</button>
+    </div>
+  );
+};
+
+export default FormBuilder;
+```

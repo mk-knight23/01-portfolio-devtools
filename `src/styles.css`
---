@@ -1,0 +1,15 @@
+```css
+/* styles.css */
+
+/* CSS Variables for light and dark themes */
+:root {
+    --background-color: #ffffff; /* Default to light theme */
+    --text-color: #000000;       /* Default to light theme */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+```
