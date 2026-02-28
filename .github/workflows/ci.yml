@@ -1,0 +1,49 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install HTML validator
+      run: npm install -g html-validate
+
+    - name: Validate HTML
+      run: html-validate index.html
+
+    - name: Check CSS syntax
+      run: |
+        npm install -g stylelint
+        stylelint style.css --config .stylelintrc.json || true
+
+    - name: Link checker
+      run: |
+        npm install -g link-checker
+        link-checker index.html || true
+
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Deploy to Firebase
+      uses: firebase/firebase-action@v2
+      with:
+        args: deploy --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

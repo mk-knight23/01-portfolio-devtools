@@ -252,6 +252,124 @@ MIT © Kazi Musharraf
 
 *Last Updated: February 2026*
 
+## 🏗️ Architecture
+
+```
+01-portfolio-devtools/
+├── index.html           # Main HTML structure
+├── style.css            # All styling (CSS Grid, Flexbox)
+├── src/                 # JavaScript modules
+│   └── *.js            # Interactive components
+├── public/              # Static assets
+└── *.js                # Utility scripts
+```
+
+### File Structure
+
+- **index.html**: Single-file SPA with semantic HTML5
+- **style.css**: Complete styling system with CSS custom properties
+- **src/**: Interactive JavaScript modules
+- **public/**: Images, fonts, and other static resources
+
+### Design System
+
+```css
+/* Core Variables */
+--bg-primary: #0d1117
+--text-primary: #e6edf3
+--accent-indigo: #6366f1
+--accent-purple: #a855f7
+```
+
+### Key Patterns
+
+- **Single-File Architecture**: No build step required
+- **Progressive Enhancement**: Works without JavaScript
+- **Component-Based**: Reusable CSS classes
+- **Performance-First**: Zero dependencies, system fonts
+
+## 🌐 Deployment
+
+### Live URLs
+
+| Platform | URL |
+|----------|-----|
+| Firebase | https://portfolio-devtools.web.app |
+| GitHub Pages | [Deployed Link] |
+
+### Deploy to Firebase
+
+```bash
+# Install Firebase CLI
+npm install -g firebase-tools
+
+# Initialize Firebase
+firebase init hosting
+
+# Deploy
+firebase deploy
+```
+
+### Deploy to Netlify
+
+```bash
+# Install Netlify CLI
+npm install -g netlify-cli
+
+# Deploy
+netlify deploy --prod --dir=.
+```
+
+### Deploy to Vercel
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+vercel
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+### Setup
+
+```bash
+# Clone and navigate
+git clone https://github.com/mk-knight23/01-portfolio-devtools.git
+cd 01-portfolio-devtools
+
+# Start local server
+python3 -m http.server 8000
+# or
+npx serve .
+```
+
+### Making Changes
+
+1. Create a feature branch: `git checkout -b feature/your-feature`
+2. Make your changes to HTML/CSS/JS
+3. Test locally in multiple browsers
+4. Submit a pull request with description
+
+### Style Guidelines
+
+- Use semantic HTML5 elements
+- Follow BEM naming for CSS classes
+- Write vanilla ES6+ JavaScript
+- Ensure accessibility (ARIA labels, keyboard nav)
+- Test on mobile and desktop
+
+## 📄 License
+
+MIT License - see LICENSE file for details
+
+---
+
+Built with 💻 and ☕ by mk-knight23
+
 
 ## ✨ Features
 
