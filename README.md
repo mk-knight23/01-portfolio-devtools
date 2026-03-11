@@ -1,3 +1,9 @@
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
 # 🚀 01-portfolio-devtools (Collective Production Edition)
 
 ## 💎 Overview
