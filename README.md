@@ -1,3 +1,63 @@
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
+# [![CI/CD](https://github.com/mk-knight23/01-portfolio-devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/01-portfolio-devtools/actions)
+
 # 01 Portfolio Devtools
 
 > Part of the [60 Projects Ecosystem](https://github.com/mk-knight23/60-Projects) | [March 2026 Upgrade](#march-2026-upgrade)
