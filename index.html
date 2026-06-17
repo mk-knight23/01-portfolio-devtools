@@ -155,6 +155,30 @@ html,body{background:transparent!important}
 @media(max-width:720px){.cine-gallery--brutalist .cine-gallery-grid{grid-template-columns:repeat(2,1fr)}.cine-gallery--brutalist figure{grid-column:span 1!important;grid-row:auto!important;aspect-ratio:4/3!important}.cine-gallery--tilt .cine-gallery-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.cine-gallery figure,.cine-bg-fallback,.cine-gallery--marquee .cine-gallery-grid{animation:none}}
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style id="sig-css">.dev{position:relative;z-index:1;padding:clamp(54px,8vw,110px) clamp(20px,6vw,80px);max-width:1100px;margin:0 auto}
+.dev .eyebrow{display:inline-block;color:rgba(var(--cine-accent),.96);letter-spacing:.3em;font-size:12px;text-transform:uppercase;margin-bottom:12px}
+.dev h2{font-size:clamp(26px,4.4vw,48px);color:#fff;margin:0 0 10px}
+.dev p.sub{color:rgba(255,255,255,.7);max-width:640px;font-size:15px;line-height:1.6;margin:0 0 18px}
+.dev-term{background:#0c0e14;border:1px solid rgba(var(--cine-accent),.3);border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.dev-bar{display:flex;align-items:center;gap:7px;padding:11px 14px;background:#15171f;border-bottom:1px solid rgba(255,255,255,.06)}
+.dev-bar i{width:11px;height:11px;border-radius:50%;display:inline-block}
+.dev-bar .t{margin-left:10px;color:rgba(255,255,255,.4);font:12px ui-monospace,monospace}
+.dev-body{padding:18px 20px;font:14px/1.7 ui-monospace,Menlo,monospace;color:#dfe6f0;min-height:240px;white-space:pre-wrap}
+.dev-body .p{color:rgb(var(--cine-accent))}
+.dev-cursor{display:inline-block;width:8px;height:16px;background:rgb(var(--cine-accent));vertical-align:-3px;animation:devBlink 1s step-end infinite}
+@keyframes devBlink{50%{opacity:0}}
+.dev-hint{margin-top:14px;color:rgba(255,255,255,.5);font-size:13px}
+.dev-hint kbd{background:rgba(var(--cine-accent),.18);border:1px solid rgba(var(--cine-accent),.4);border-radius:5px;padding:2px 7px;color:#fff;font:12px ui-monospace,monospace}
+.cmdk{position:fixed;inset:0;z-index:9999;background:rgba(6,7,12,.7);backdrop-filter:blur(6px);display:none;align-items:flex-start;justify-content:center;padding-top:14vh}
+.cmdk.open{display:flex}
+.cmdk-box{width:min(560px,92vw);background:#12141c;border:1px solid rgba(var(--cine-accent),.4);border-radius:14px;overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.6)}
+.cmdk-box input{width:100%;box-sizing:border-box;background:none;border:none;outline:none;padding:18px 20px;color:#fff;font:16px Arial;border-bottom:1px solid rgba(255,255,255,.08)}
+.cmdk-list{max-height:300px;overflow:auto}
+.cmdk-item{padding:13px 20px;color:#dfe6f0;font-size:14px;cursor:pointer;display:flex;justify-content:space-between}
+.cmdk-item:hover,.cmdk-item.sel{background:rgba(var(--cine-accent),.16)}
+.cmdk-item span{color:rgba(255,255,255,.4);font:12px ui-monospace,monospace}
+</style>
 </head>
 
 <body>
@@ -217,6 +241,8 @@ html,body{background:transparent!important}
                 <div class="scroll-line"></div>
             </div>
         </section>
+<section class="dev" id="terminal"><span class="eyebrow">Developer Console</span><h2>Run the portfolio</h2><p class="sub">A live terminal — and press Cmd/Ctrl-K anywhere for the command palette.</p><div class="dev-term"><div class="dev-bar"><i style="background:#ff5f56"></i><i style="background:#ffbd2e"></i><i style="background:#27c93f"></i><span class="t">musharraf@kazi ~ %</span></div><div class="dev-body" id="devBody"></div></div><p class="dev-hint">Tip: press <kbd>Cmd K</kbd> or <kbd>Ctrl K</kbd> for the command palette.</p></section>
+
 <section class="cine-gallery cine-gallery--brutalist" data-cine-skip aria-label="Visual showcase"><div class="cine-gallery-head"><span class="cine-gallery-eyebrow">FIELD NOTES — 35MM</span><h2 class="cine-gallery-title">BUILT IN THE TERMINAL</h2><p class="cine-gallery-sub">Tooling, CLIs and developer experience.</p></div><div class="cine-gallery-grid"><figure><img src="media/shot-1.jpg" alt="CLI" loading="lazy"><figcaption>CLI</figcaption></figure><figure><img src="media/shot-2.jpg" alt="BUILD" loading="lazy"><figcaption>BUILD</figcaption></figure><figure><img src="media/shot-3.jpg" alt="DEBUG" loading="lazy"><figcaption>DEBUG</figcaption></figure><figure><img src="media/shot-4.jpg" alt="SHIP" loading="lazy"><figcaption>SHIP</figcaption></figure></div></section>
 
 
@@ -707,7 +733,7 @@ html,body{background:transparent!important}
  ];
  function el(t,c){var e=document.createElement(t);if(c)e.className=c;return e;}
  function filter(){if(document.getElementById('liquid-trail'))return;var ns='http://www.w3.org/2000/svg',s=document.createElementNS(ns,'svg');s.setAttribute('width','0');s.setAttribute('height','0');s.style.position='absolute';s.innerHTML='<filter id="liquid-trail"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="30" xChannelSelector="R" yChannelSelector="G"/></filter>';document.body.appendChild(s);}
- function stage(){if(document.querySelector('.cine-stage'))return;var st=el('div','cine-stage');st.setAttribute('aria-hidden','true');st.appendChild(el('div','cine-bg-fallback'));var v=document.createElement('video');v.src='media/hero-bg.mp4';v.poster='media/hero-poster.jpg';v.autoplay=v.loop=v.muted=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('muted','');v.onerror=function(){v.style.display='none';};st.appendChild(v);document.body.insertBefore(st,document.body.firstChild);document.body.insertBefore(el('div','cine-tint'),st.nextSibling);var b=el('div','cine-brand');b.innerHTML='KAZI&nbsp;<b>MUSHARRAF</b>';document.body.appendChild(b);}
+ function stage(){if(document.querySelector('.cine-stage'))return;var st=el('div','cine-stage');st.setAttribute('aria-hidden','true');st.appendChild(el('div','cine-bg-fallback'));var v=document.createElement('video');v.src='media/hero-bg.mp4';v.poster='media/hero-poster.jpg';v.autoplay=v.loop=v.muted=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('muted','');v.onerror=function(){v.style.display='none';};st.appendChild(v);document.body.insertBefore(st,document.body.firstChild);document.body.insertBefore(el('div','cine-tint'),st.nextSibling);var b=el('div','cine-brand');b.innerHTML='MUSHARRAF&nbsp;<b>KAZI</b>';document.body.appendChild(b);}
  function setTheme(k){var t=THEMES.filter(function(x){return x.k===k;})[0]||THEMES[0];var r=document.documentElement;r.style.setProperty('--cine-accent',t.a);r.style.setProperty('--cine-ink',t.i);r.setAttribute('data-cine-theme',t.k);try{localStorage.setItem('cineTheme',t.k);}catch(e){}var sw=document.querySelector('.cine-tsw');if(sw){[].forEach.call(sw.children,function(btn){btn.setAttribute('aria-pressed',btn.getAttribute('data-k')===t.k);});}}
  function switcher(){
   var variant=CFG.tsw||'pill';
@@ -745,6 +771,28 @@ html,body{background:transparent!important}
  function init(){filter();stage();switcher();var saved;try{saved=localStorage.getItem('cineTheme');}catch(e){}setTheme(saved||CFG.theme||'devtools');gallery();tabify();ripple();}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+</script>
+<button id="cmdkBtn" style="position:fixed;bottom:22px;left:50%;transform:translateX(-50%);z-index:200;background:rgba(var(--cine-accent),.92);color:#0a0a12;border:none;font:600 13px Arial;letter-spacing:.08em;padding:11px 22px;border-radius:100px;cursor:pointer;box-shadow:0 8px 26px rgba(0,0,0,.4)">⌘K  Command</button><div class="cmdk" id="cmdk"><div class="cmdk-box"><input placeholder="Type a command…"><div class="cmdk-list"></div></div></div>
+<script>window.__CINE3D__={labels:["CLI","VS CODE","MCP","AGENTS","SKILLS","PROMPTS"]};</script>
+<script id="cine-3d">(function(){function init(){var T=window.THREE;if(!T)return;var host=document.querySelector('.hero')||document.body;try{var c=document.createElement('canvas');if(!(c.getContext('webgl')||c.getContext('experimental-webgl')))return;}catch(e){return;}var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;var wrap=document.createElement('div');wrap.style.cssText='position:absolute;inset:0;z-index:0;pointer-events:none';if(getComputedStyle(host).position==='static')host.style.position='relative';host.insertBefore(wrap,host.firstChild);[].forEach.call(host.children,function(ch){if(ch!==wrap&&getComputedStyle(ch).position==='static'){ch.style.position='relative';ch.style.zIndex='2';}});var W=host.clientWidth||window.innerWidth,H=host.clientHeight||520;var acc=((getComputedStyle(document.documentElement).getPropertyValue('--cine-accent'))||'129,140,248').trim();var ar=acc.split(',').map(Number);var COL=(ar[0]<<16)+(ar[1]<<8)+ar[2];var scene=new T.Scene();var cam=new T.PerspectiveCamera(55,W/H,0.1,100);cam.position.z=14;var rnd;try{rnd=new T.WebGLRenderer({alpha:true,antialias:true});}catch(e){return;}rnd.setPixelRatio(Math.min(window.devicePixelRatio,2));rnd.setSize(W,H);wrap.appendChild(rnd.domElement);var grp=new T.Group();scene.add(grp);var core=new T.Mesh(new T.IcosahedronGeometry(2.4,1),new T.MeshBasicMaterial({color:COL,wireframe:true,transparent:true,opacity:0.55}));grp.add(core);grp.add(new T.Mesh(new T.IcosahedronGeometry(1.5,0),new T.MeshBasicMaterial({color:0xffffff,wireframe:true,transparent:true,opacity:0.18})));scene.add(new T.AmbientLight(0xffffff,0.8));var labels=(window.__CINE3D__&&window.__CINE3D__.labels)||['AGENTS','SAAS','AUTOMATION','DEV TOOLS','INFRA','RESEARCH'];var nodes=[];function sprite(t){var cv=document.createElement('canvas');cv.width=256;cv.height=64;var x=cv.getContext('2d');x.fillStyle='rgba('+acc+',1)';x.font='bold 28px Arial';x.textAlign='center';x.textBaseline='middle';x.shadowColor='rgba(0,0,0,.6)';x.shadowBlur=6;x.fillText(t,128,34);var tx=new T.CanvasTexture(cv);var s=new T.Sprite(new T.SpriteMaterial({map:tx,transparent:true}));s.scale.set(3.4,0.85,1);return s;}labels.forEach(function(l,i){var a=(i/labels.length)*Math.PI*2;var r=6+(i%2)*1.6;var nd=new T.Mesh(new T.SphereGeometry(0.28,16,16),new T.MeshBasicMaterial({color:COL}));var sp=sprite(l);sp.position.y=0.9;var node=new T.Group();node.add(nd);node.add(sp);node.userData={a:a,r:r,sp:0.15+(i%3)*0.05,y:(i%2?1:-1)*1.2};grp.add(node);nodes.push(node);var pts=[];for(var k=0;k<=64;k++){var t=k/64*Math.PI*2;pts.push(new T.Vector3(Math.cos(t)*r,node.userData.y*0.4,Math.sin(t)*r));}grp.add(new T.Line(new T.BufferGeometry().setFromPoints(pts),new T.LineBasicMaterial({color:COL,transparent:true,opacity:0.12})));});var mx=0,my=0;window.addEventListener('mousemove',function(e){mx=(e.clientX/window.innerWidth-0.5);my=(e.clientY/window.innerHeight-0.5);});window.addEventListener('resize',function(){W=host.clientWidth;H=host.clientHeight||520;cam.aspect=W/H;cam.updateProjectionMatrix();rnd.setSize(W,H);});var run=true;document.addEventListener('visibilitychange',function(){run=!document.hidden;if(run&&!reduce)loop();});function frame(){core.rotation.y+=0.0025;core.rotation.x+=0.0012;nodes.forEach(function(n){var u=n.userData;u.a+=u.sp*0.01;n.position.set(Math.cos(u.a)*u.r,u.y+Math.sin(u.a*1.3)*0.5,Math.sin(u.a)*u.r);});grp.rotation.y+=(mx*0.5-grp.rotation.y)*0.04;grp.rotation.x+=(my*0.3-grp.rotation.x)*0.04;rnd.render(scene,cam);}function loop(){if(!run)return;if(!reduce)requestAnimationFrame(loop);frame();}if(reduce){frame();}else loop();}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){setTimeout(init,300);});else setTimeout(init,300);})();
+</script>
+<script>(function(){function build(){
+ var body=document.getElementById('devBody');
+ if(body){var seq=[['$ mk whoami','Musharraf Kazi — AI Engineer & AI Organization Architect'],['$ mk stack','python · typescript · next.js · fastapi · langgraph · supabase · docker'],['$ mk projects --count','80+ projects · 100+ repos · 5 live cinematic portfolios'],['$ mk tools','VIBE CLI · Claude Code · Cursor · Copilot · MCP servers · agent skills'],['$ mk deploy --status','● all systems live on vercel']];
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce){body.innerHTML=seq.map(function(s){return '<span class="p">'+s[0]+'</span>\n'+s[1];}).join('\n\n');}
+  else{var out='';var li=0;function typeLine(){if(li>=seq.length){body.innerHTML=out+'<span class="dev-cursor"></span>';return;}var cmd=seq[li][0],res=seq[li][1],ci=0;function tc(){if(ci<=cmd.length){body.innerHTML=out+'<span class="p">'+cmd.slice(0,ci)+'</span><span class="dev-cursor"></span>';ci++;setTimeout(tc,34);}else{out+='<span class="p">'+cmd+'</span>\n'+res+'\n\n';li++;setTimeout(typeLine,520);}}tc();}typeLine();}
+ }
+ var cmds=[['Explore the 60 projects','scroll','#architecture,.cstl,#projects,.featured'],['View AI ecosystems','scroll','.ecosystems,#ecosystems,#vibe'],['Open GitHub','link','https://github.com/mk-knight23'],['See the other portfolios','link','https://kazi-05-frontend-ai.vercel.app'],['Contact','scroll','#contact,.contact,footer'],['Top of page','top','']];
+ var ov=document.getElementById('cmdk');if(ov){var inp=ov.querySelector('input'),list=ov.querySelector('.cmdk-list');
+  function render(q){list.innerHTML='';cmds.filter(function(c){return c[0].toLowerCase().indexOf((q||'').toLowerCase())>-1;}).forEach(function(c){var it=document.createElement('div');it.className='cmdk-item';it.innerHTML=c[0]+'<span>'+c[1]+'</span>';it.onclick=function(){run(c);};list.appendChild(it);});}
+  function run(c){ov.classList.remove('open');if(c[1]==='link'){window.open(c[2],'_blank');}else if(c[1]==='top'){window.scrollTo({top:0,behavior:'smooth'});}else{var el=document.querySelector(c[2].split(',').filter(function(s){return document.querySelector(s);})[0]||'body');if(el)el.scrollIntoView({behavior:'smooth'});}}
+  function open(){ov.classList.add('open');inp.value='';render('');setTimeout(function(){inp.focus();},50);}
+  document.addEventListener('keydown',function(e){if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();open();}if(e.key==='Escape')ov.classList.remove('open');});
+  inp.addEventListener('input',function(){render(inp.value);});ov.addEventListener('click',function(e){if(e.target===ov)ov.classList.remove('open');});
+  var btn=document.getElementById('cmdkBtn');if(btn)btn.onclick=open;render('');
+ }
+}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build();})();
 </script>
 </body>
 
