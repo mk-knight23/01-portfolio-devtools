@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mk-devdeck.vercel.app/sitemap.xml
+Sitemap: https://devtools.mkazi.live/sitemap.xml
